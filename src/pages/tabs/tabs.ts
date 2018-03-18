@@ -11,7 +11,6 @@ export class TabsPage {
   tab1Root = PendientesComponent;
   tab2Root = TerminadosComponent;
 
-
   constructor() {
 
   }

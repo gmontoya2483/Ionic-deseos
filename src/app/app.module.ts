@@ -6,6 +6,10 @@ import { MyApp } from './app.component';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
+//services
+import {LiastaDeseosService} from './services/lista-deseos.service';
+
+//Components
 import { TabsPage } from '../pages/tabs/tabs';
 import {PendientesComponent} from '../pages/pendientes/pendientes.component';
 import {TerminadosComponent} from '../pages/terminados/terminados.component';
@@ -31,6 +35,7 @@ import {TerminadosComponent} from '../pages/terminados/terminados.component';
   providers: [
     StatusBar,
     SplashScreen,
+    LiastaDeseosService,
     {provide: ErrorHandler, useClass: IonicErrorHandler}
   ]
 })

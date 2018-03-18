@@ -6,6 +6,10 @@
 
 <ion-content padding>
 
-  <h1>Pendientes !!!</h1>
+  <ul>
+    <li *ngFor="let lista of _liastaDeseos.listas">
+      {{ lista.nombre }}
+    </li>
+  </ul>
 
 </ion-content>
