@@ -52,8 +52,9 @@ Para poder utilizar **IONIC** , es necesario utiilizar **git**, dado que los dep
 * Desde el **Git bash** ejecutar el siguiente comando para agregar la apliacion a ionic dashboard: ``ionic link --create``, colocar luego el nombre de la aplicación.
 * Para subir la aplicacion al IONIC, ``git push ionic master``
 
+## Componentes
 
-
+[Componentes](componentes.md)
   
   
   
