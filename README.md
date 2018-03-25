@@ -59,3 +59,10 @@ Para poder utilizar **IONIC** , es necesario utiilizar **git**, dado que los dep
 ## Services
 
 [Servicios](services.md)
+
+## Documentacion IONIC framework y diseño
+
+[Documentacion](https://ionicframework.com/docs/)
+
+
+## Navegacion entre pantallas
